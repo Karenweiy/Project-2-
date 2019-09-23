@@ -141,6 +141,19 @@ function optionChanged(newticker) {
   buildSinglePutPlot(newticker); // single-ticker plot function
 }
 
+// function buildSingleCallPlot(newticker) {
+// 	// Step 1: Create route string with newticker
+// 	let endpoint = "/calls/" + newticker
+	
+// 	// Step 2: Perform API call to the (Flask) route given the newticker
+// 	d3.json(endpoint).then(function(response){
+// 	  // Step 3: Process data and build plot!
+	  
+// 	}
+	
+//  }
+
+
 // Execute Init()!
 init()
 buildAllCallPlot();

@@ -52,7 +52,7 @@ def tickers():
 
     # Use Pandas to perform the sql query
     # stmt = db.session.query(calls_data).statement
-    # df = pd.read_sql_query(stmt, db.session.bind) ???
+    # df = pd.read_sql_query(stmt, db.session.bind) 
    
     # Return a list of the column names (sample names)
     return jsonify(unique_tickers)
